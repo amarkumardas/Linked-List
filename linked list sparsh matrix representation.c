@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
-typedef struct sparshmatrix             //here  we make the code short but not extra node is created and printing extra garbage value
-{                                      //we have hoidden that   garbage value by using temp->next==0 in printlist(head); function so we are getting right result but 1 node space is wasted
+typedef struct sparshmatrix    //here  we make the code short but not extra node is created and printing extra garbage value
+{                             //we have hoidden that garbage value by using temp->next==0 in printlist(head); function so we are getting right result but 1 node space is wasted
 	int rowpos;
 	int columnpos;
 	int data;
